@@ -1,0 +1,165 @@
+body{
+
+    background-color: #38b5eb;
+
+}
+
+ 
+
+.container{
+
+    background-color: #38b5eb;
+
+    border-radius: 2px;
+
+    height: 80px;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    font-family: sans-serif;
+
+    padding: 20px;
+
+}
+
+ 
+
+.heading{
+
+    text-align: center;
+
+    color: antiquewhite;
+
+}
+
+ 
+
+#cards{
+
+    display: flex;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+}
+
+ 
+
+.card{
+
+    width: 23%;
+
+    box-shadow: 0 0 4px 3px #0276a8;
+
+    padding: 1em;
+
+    margin-bottom: 2em;
+
+    height: auto;
+
+    margin: 30px;
+
+    background-color: #025da8;
+
+}
+
+ 
+
+.country{
+
+    font-size: auto;
+
+    text-align: center;
+
+}
+
+ 
+
+p{
+
+    font-size: 1rem;
+
+    text-align: center;
+
+}
+
+ 
+
+.images{
+
+    height: 50%;
+
+}
+
+ 
+
+.btn{
+
+    border: 3px solid #025da8;
+
+    text-align: center;
+
+    background-color:  #025da8;
+
+    border-radius: 13px;
+
+    height:50px;
+
+}
+
+ 
+
+.btn:hover{
+
+    background-color: lightblue;
+
+    transition: 0.7s;
+
+}
+
+ 
+
+.bi bi-cloud-sun{
+
+    height: 50px;
+
+}
+
+ 
+
+.modal-js-overlay {
+
+    background-color: lightblue;
+
+    visibility: hidden;
+
+    position: fixed;
+
+    opacity: 0.98;
+
+    top: 0px;
+
+    width: 100%;
+
+    height: 100vh;
+
+    overflow-y: scroll;
+
+    z-index: 20000;
+
+    left: 0px;
+
+  }
+
+ 
+
+#city,#main,#temp,#tmp{
+
+    color: #025da8;
+
+}  
+
+ 
